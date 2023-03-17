@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Francois+One&family=Lobster&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
     <title>Liam McWilliams</title>
 </head>
 <header>
     <nav>
         <ul>
-            <li><a href="#">Liam McWilliams</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">My Skills</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li class="name">Liam McWilliams</li>
+            <li class="other"><a href="#">About Me</a></li>
+            <li class="other"><a href="#">My Projects</a></li>
+            <li class="other"><a href="#">My Skills</a></li>
+            <li class="other"><a href="#">Contact Me</a></li>
         </ul>
     </nav>
 </header> 
 <body>
-    <div id="introduction">
+    <div id="banner">
         <h1>Welcome to my Portfolio</h1>
-
+    </div>
+        
+    <div id="introduction">
         <p>Welcome to my portfolio page! My name is Liam McWilliams and I am a beginner developer
-        eagar to show my skills and projets. As a passionate and dedicated learner, I am always
+        eagar to show my skills and projects. As a passionate and dedicated learner, I am always
         seeking to expand my knowledge and expertise in the field of development.</p>
 
         <p>This portfolio is a collection of my most recent and exciting projects. I have also included
@@ -34,28 +38,55 @@
 
         <p>Thank you for visiting my portfolio, and I hope you enjoy exploring my work!</p>
     </div>
-    <div id="about-me">
+    
         <h1>About Me</h1>
+    <div id="about-me">
+        <p>Welcome to my coding journey! My name is Liam McWilliams, and I am a beginner coder currently taking Codecademy classes from Ann Arbor, Michigan.
+            I have always been fascinated by technology and the endless possibilities it presents. <br><br> However, it wasn't until recently that I decided to take a leap and start learning how to code. Codecademy has been an incredible resource in helping me get started on this exciting path. 
+            As a beginner, I understand the challenges that come with learning to code. However, I am committed to pushing myself and expanding my knowledge and skillset. I am excited to see where this journey takes me and what projects I will be able to create in the future.
+            Through this website, I hope to share my experiences, challenges, and successes with fellow coders, both beginners and experts alike. <br><br> I believe that the coding community is a collaborative and supportive one, and I am eager to be a part of it.
+            Thank you for joining me on this journey, and I look forward to sharing more with you soon!</p>
+        <img src=".//Resources/me.jpg" alt="">
     </div>
     <div id="my-projects">
         <h1>My Projects</h1>
+        <div id="fortune-teller-project">
+            <h2 class="child">Fortune Teller Project</h2>
+            <h3 class="child">Languages Used:</h3>
+            <ul class="child">
+                <li class="left">JavaScript</li>
+            </ul> 
+            <h3 class="child">Description:</h3>
+            <p class="child">This program utilizes JavaScript in order to provide a randomized fortune for three seperate categories:
+                future relationship status, life mood, and expected life length.</p>
+            <img src=".//Resources/fortune.jpg" alt="" class="child">
+        </div>
     </div>
     <div id="my-skills">
         <h1>My Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li id="javaScript">JavaScript (click me)</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>CSS</li>
+        </ul>
     </div>
     <div id="contact-me">
         <h1>Contact Me</h1>
+        <h4>Email: mockemailpratice@gmail.com</h4>
     </div>
-
+    
+    <script src="index.js"></script>
 </body>
 <footer>
     <nav>
         <ul>
-            <li><a href="#">Liam McWilliams</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">My Skills</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li class="name">Liam McWilliams</li>
+            <li class="other"><a href="#">About Me</a></li>
+            <li class="other"><a href="#">My Projects</a></li>
+            <li class="other"><a href="#">My Skills</a></li>
+            <li class="other"><a href="#">Contact Me</a></li>
         </ul>
     </nav>
 </footer>
